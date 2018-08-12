@@ -1,0 +1,137 @@
+* {
+    font-family: sans-serif
+}
+
+.ListItemTable {
+    width: 75em;
+    margin: auto;
+    display: block;
+    box-shadow: 10px 5px 5px black;
+    border-color: #000;
+    border-width: 1px;
+    border-style: solid;
+    padding: 0px;
+}
+
+.ListItemTable tbody tr:hover  {
+    cursor: pointer;
+    background-color: #999;
+}
+
+.ListItemTable td {
+    border-color: #000;
+    border-width: 1px;
+    border-style: solid;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    padding: 0.5em;
+    position: relative;
+}
+
+.ListItemTable button.delete {
+    display: none;
+    float: right;
+    position: absolute;
+    right: 1em;
+    top: 10%;
+    font-size: 1.1em;
+}
+
+.ListItemView {
+    background: #FFF;
+    border-color: #000;
+    border-width: 1px;
+    box-shadow: 10px 5px 5px black;
+    border-style: solid;
+    width: 50em;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.ListItemView_form {
+    float: left;
+    width: 25em;
+}
+
+.ListItemView_fieldset {
+    margin: 0.5em;
+}
+
+.ListItemView_thumb {
+    display: block;
+    float: right; 
+    width: 20em;
+}
+
+.ListItemView_thumb img {
+    max-width: 15em;
+    max-height: 15em;
+    display: block;
+    margin: auto;
+    box-shadow: 10px 5px 5px black;
+    border-color: #000;
+    border-width: 1px;
+    border-style: solid;
+}
+
+/* input blocks */
+
+div.input, div.close-button {
+    display: block;
+    margin: 1.5em 0em;
+}
+
+div.input label {
+    text-align: left;
+    margin-right: auto;
+}
+
+div.input input {
+    margin-left: auto;
+    float: right;
+}
+
+div.textarea textarea {
+    width: 100%;
+    min-height: 15em;
+}
+
+div.close-button button {
+    display: block;
+    margin: auto;
+    font-size: larger;
+}
+
+div.search {
+    display: block;
+    width: 19.5em;
+    margin: 1.5em auto;
+}
+
+div.pager {
+    text-align: center;
+    display: block;
+    width: 15em;
+    margin: 1.5em auto;
+}
+
+/* Stats */
+
+blockquote {
+    text-align: center;
+    font-size: smaller;
+}
+
+blockquote.ListItemStats {
+    color: #888;
+    font-style: italic;
+}
+
+blockquote.author {
+    color: #000;
+    font-weight: bold;
+}
